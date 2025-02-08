@@ -36,3 +36,8 @@
 - command ``git commit`` tells to Git ``take a snapshot of the current state of all the files you've been follwed``
 
 ``git commit -m "message"``
+
+
+### workflow:
+
+``working_dir`` -- ``-gitadd``---> ``stagging area``-- ``-gitcommit``---> ``local repo``
