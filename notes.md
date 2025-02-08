@@ -24,3 +24,15 @@
     ``git config user.name "_name"``
     
     ``git config user.email "_email"``
+
+## GIT ADD & GIT COMMIT 
+### git add : Transit
+- command ``git add`` tells to Git ``follow all this file moves 👀``
+
+
+``git add file.txt`` --add it to the--> ``stagging area(index area)``
+
+### git commit : 
+- command ``git commit`` tells to Git ``take a snapshot of the current state of all the files you've been follwed``
+
+``git commit -m "message"``
