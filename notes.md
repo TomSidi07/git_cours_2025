@@ -44,3 +44,8 @@
 
 ### GIT PUSH & GIT PULL
 <!-- GIT PUSH -->
+## GIT LOG 
+
+- cli :
+	git log
+	git log -_index_of_commit
