@@ -1,3 +1,4 @@
 to create a file with content you use echo __content > __filename.ext
 
 and this is added by nano
+and to append a new line use echo _newline >> __filename.ext
