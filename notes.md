@@ -81,7 +81,9 @@ git show HEAD~:<file> > <newfile.ext>
 
 ### back to a target commit
 
-    git reset --hard <commits_hash>
+    git reset --hard <commit_hash>
+
+    git checkout <commit_hash>
 
 ### undo a commit
 
