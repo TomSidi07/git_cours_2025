@@ -87,13 +87,30 @@ git show HEAD~:<file> > <newfile.ext>
 
 ### undo a commit
 
-  - git revert HEAD~no 
-    (create a new commit to mark the revertion of commits)
+- git revert HEAD~no
+  (create a new commit to mark the revertion of commits)
 
-  - git revert -n(--no-commity) HEAD~4..HEAD
+- git revert -n(--no-commity) HEAD~4..HEAD
 
-    or
+  or
 
-  - git reset --hard (change the commit history)
+- git reset --hard (change the commit history)
 
-## REFERENCING COMMITS
+## TAGS
+
+### CREATE
+
+git tag <tag_name> || git tap <tag_name> -a (for anotated)
+git push --tags || git push origin <tag_name>
+
+-from another tag:
+git tag <new_tag> <old_tag> (you have to manualy delete the old one)
+
+### DELETE
+
+git tag --delete <tag_name>
+git push origin --delete <tagname>
+
+### REFERENCING COMMITS
+
+git tag <tag_name> <commit_hash>
