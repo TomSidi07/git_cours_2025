@@ -95,3 +95,5 @@ git show HEAD~:<file> > <newfile.ext>
     or
 
   - git reset --hard (change the commit history)
+
+## REFERENCING COMMITS
