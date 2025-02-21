@@ -101,7 +101,7 @@ git show HEAD~:<file> > <newfile.ext>
 ### CREATE
 
 git tag <tag_name> || git tap <tag_name> -a (for anotated)
-git push --tags || git push origin <tag_name>
+git push --tags || git push origin <tag_name> || git push --follow-tags
 
 -from another tag:
 git tag <new_tag> <old_tag> (you have to manualy delete the old one)
@@ -114,3 +114,7 @@ git push origin --delete <tagname>
 ### REFERENCING COMMITS
 
 git tag <tag_name> <commit_hash>
+
+### FIX ON PULL (team)
+
+git pull --prune --tags
